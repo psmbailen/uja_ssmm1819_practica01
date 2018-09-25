@@ -7,6 +7,9 @@ import android.support.v4.app.Fragment;
 import android.view.LayoutInflater;
 import android.view.View;
 import android.view.ViewGroup;
+import android.widget.Button;
+import android.widget.EditText;
+import android.widget.Toast;
 
 
 /**
@@ -64,15 +67,22 @@ public class FragmentAuth extends Fragment {
     public View onCreateView(LayoutInflater inflater, ViewGroup container,
                              Bundle savedInstanceState) {
         // Inflate the layout for this fragment
-        return inflater.inflate(R.layout.fragment_fragment_auth, container, false);
+        View fragment = inflater.inflate(R.layout.fragment_fragment_auth, container, false);
+
+        final EditText user = fragment.findViewById(R.id.fragment_auth_edit_name);
+        Button connect = fragment.findViewById(R.id.fragment_auth_button);
+
+        connect.setOnClickListener(new View.OnClickListener() {
+            @Override
+            public void onClick(View view) {
+                Toast.makeText(getActivity(),user.getEditableText().toString(),Toast.LENGTH_LONG).show();
+            }
+        });
+
+        return fragment;
     }
 
-    // TODO: Rename method, update argument and hook method into UI event
-    public void onButtonPressed(Uri uri) {
-        if (mListener != null) {
-            mListener.onFragmentInteraction(uri);
-        }
-    }
+
 
     @Override
     public void onAttach(Context context) {
