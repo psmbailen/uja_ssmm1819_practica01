@@ -104,7 +104,8 @@ public class FragmentAuth extends Fragment {
                 intent.putExtra("pass",s_pass);
                 intent.putExtra("domain",s_domain);
                 intent.putExtra("port",s_port);
-                startActivity(intent);
+                //startActivity(intent);
+                mListener.onFragmentInteraction(userData);
             }
         });
 
@@ -141,6 +142,6 @@ public class FragmentAuth extends Fragment {
      */
     public interface OnFragmentInteractionListener {
         // TODO: Update argument type and name
-        void onFragmentInteraction(Uri uri);
+        void onFragmentInteraction(UserData udata);
     }
 }
