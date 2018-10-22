@@ -5,4 +5,11 @@
     <string name="login_pass">Password</string>
     <string name="fragment_button_connect">Login</string>
     <string name="fragment_auth_user">User</string>
+    <string name="login_hint_user">Write your user</string>
+    <string name="login_hint_pass">Write your password</string>
+    <string name="lagin_port">Port</string>
+    <string name="login_ip">Direction</string>
+    <string name="login_hint_ip">IP Direction or Domain</string>
+    <string name="login_hint_port">TCP Port of Server</string>
+    <string name="mainactivity_fragmentepresent">It already has a fragment</string>
 </resources>

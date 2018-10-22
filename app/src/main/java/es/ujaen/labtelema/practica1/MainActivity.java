@@ -17,6 +17,7 @@ import data.UserData;
 public class MainActivity extends AppCompatActivity implements FragmentAuth.OnFragmentInteractionListener {
 
     private UserData ud=null;
+
     @Override
     protected void onCreate(Bundle savedInstanceState) {
         super.onCreate(savedInstanceState);

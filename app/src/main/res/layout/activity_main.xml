@@ -11,7 +11,7 @@
 
     <TextView
         android:id="@+id/main_apptitle"
-        android:layout_width="wrap_content"
+        android:layout_width="232dp"
         android:layout_height="wrap_content"
         android:layout_marginTop="8dp"
         android:gravity="center_horizontal"
@@ -21,7 +21,7 @@
     <TextView
         android:id="@+id/main_degree"
         android:layout_width="wrap_content"
-        android:layout_height="wrap_content"
+        android:layout_height="142dp"
         android:gravity="center_horizontal"
         android:text="@string/main_description"
         android:textAppearance="@style/TextAppearance.AppCompat.Display1" />
@@ -31,6 +31,12 @@
         android:layout_width="match_parent"
         android:layout_height="match_parent">
 
+        <TextView
+            android:id="@+id/textView2"
+            android:layout_width="match_parent"
+            android:layout_height="250dp"
+            android:text="@string/main_autor"
+            android:textAppearance="@style/TextAppearance.AppCompat.Display1" />
     </FrameLayout>
 
 </LinearLayout>

@@ -41,6 +41,12 @@
         android:layout_height="match_parent"
         android:layout_weight="1">
 
+        <TextView
+            android:id="@+id/textView3"
+            android:layout_width="match_parent"
+            android:layout_height="match_parent"
+            android:text="@string/main_autor2"
+            android:textAppearance="@style/TextAppearance.AppCompat.Display1" />
     </FrameLayout>
 
 </LinearLayout>
