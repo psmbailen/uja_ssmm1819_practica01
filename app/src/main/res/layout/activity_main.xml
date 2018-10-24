@@ -1,13 +1,16 @@
 <?xml version="1.0" encoding="utf-8"?>
 <LinearLayout xmlns:android="http://schemas.android.com/apk/res/android"
 
+    xmlns:app="http://schemas.android.com/apk/res-auto"
     xmlns:tools="http://schemas.android.com/tools"
     android:id="@+id/main_root"
     android:layout_width="match_parent"
     android:layout_height="match_parent"
+    android:background="@mipmap/ic_launcher_round"
     android:gravity="center_horizontal"
     android:orientation="vertical"
     android:padding="@dimen/main_padding">
+
 
     <TextView
         android:id="@+id/main_apptitle"
@@ -15,7 +18,7 @@
         android:layout_height="wrap_content"
         android:layout_marginTop="8dp"
         android:gravity="center_horizontal"
-        android:text="@string/app_name"
+        android:text="Farmacia"
         android:textAppearance="@style/TextAppearance.AppCompat.Display2" />
 
     <TextView
@@ -23,8 +26,8 @@
         android:layout_width="wrap_content"
         android:layout_height="142dp"
         android:gravity="center_horizontal"
-        android:text="@string/main_description"
-        android:textAppearance="@style/TextAppearance.AppCompat.Display1" />
+        android:text="Autoservicio en Farmacia"
+        android:textAppearance="@style/TextAppearance.AppCompat.Display2" />
 
     <FrameLayout
         android:id="@+id/main_container"
@@ -35,7 +38,7 @@
             android:id="@+id/textView2"
             android:layout_width="match_parent"
             android:layout_height="250dp"
-            android:text="@string/main_autor"
+            android:text=""
             android:textAppearance="@style/TextAppearance.AppCompat.Display1" />
     </FrameLayout>
 
