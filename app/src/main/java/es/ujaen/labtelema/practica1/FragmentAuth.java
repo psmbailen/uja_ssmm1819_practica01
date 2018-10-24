@@ -144,4 +144,5 @@ public class FragmentAuth extends Fragment {
         // TODO: Update argument type and name
         void onFragmentInteraction(UserData udata);
     }
+
 }
