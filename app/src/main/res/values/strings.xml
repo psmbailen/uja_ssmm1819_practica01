@@ -27,4 +27,9 @@
     <string name="main_autor2">Pedro Javier Sáez Mira y Francisco Sebastián Ponce Serrano</string>
     <string name="nav_header_subtitle1">pedroyfran@gmail.com</string>
     <string name="nav_header_title1">App Android</string>
+    <string name="auth_correct">autenticacion_correcta</string>
+    <string name="auth_error">autenticacion error</string>
+    <string name="main_connecting">menu conectado</string>
+    <string name="main_progress">menu progreso</string>
+    <string name="main_connected">menu conectado</string>
 </resources>

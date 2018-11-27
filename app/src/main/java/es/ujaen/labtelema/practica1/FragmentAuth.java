@@ -49,7 +49,7 @@ public class FragmentAuth extends Fragment {
      * @return A new instance of fragment FragmentAuth.
      */
     // TODO: Rename and change types and number of parameters
-    public static FragmentAuth newInstance(String param1, String param2) {
+    public static FragmentAuth  newInstance(String param1, String param2) {
         FragmentAuth fragment = new FragmentAuth();
         Bundle args = new Bundle();
         args.putString(ARG_PARAM1, param1);
@@ -97,7 +97,7 @@ public class FragmentAuth extends Fragment {
                     temp = 80;
                 }
                 userData = new UserData(s_user, s_pass, s_domain, temp);
-                //Toast.makeText(getActivity(), s_user + " " + s_pass + " " + s_domain + " " + s_port, Toast.LENGTH_LONG).show();
+                Toast.makeText(getActivity(), s_user + " " + s_pass + " " + s_domain + " " + s_port, Toast.LENGTH_LONG).show();
 
                 Intent intent = new Intent(getActivity(),ServiceActivity.class);
                 intent.putExtra(ServiceActivity.PARAMETER_USER,s_user);
