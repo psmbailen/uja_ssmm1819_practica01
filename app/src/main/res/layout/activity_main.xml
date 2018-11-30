@@ -6,7 +6,7 @@
     android:id="@+id/main_root"
     android:layout_width="match_parent"
     android:layout_height="match_parent"
-    android:background="@mipmap/ic_launcher_round"
+    android:background="@drawable/logofarmacia"
     android:gravity="center_horizontal"
     android:orientation="vertical"
     android:padding="@dimen/main_padding">
@@ -34,12 +34,6 @@
         android:layout_width="match_parent"
         android:layout_height="match_parent">
 
-        <TextView
-            android:id="@+id/textView2"
-            android:layout_width="match_parent"
-            android:layout_height="250dp"
-            android:text=""
-            android:textAppearance="@style/TextAppearance.AppCompat.Display1" />
     </FrameLayout>
 
 </LinearLayout>
