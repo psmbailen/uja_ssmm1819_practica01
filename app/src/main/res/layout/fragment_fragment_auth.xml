@@ -55,6 +55,7 @@
             android:id="@+id/fragment_auth_button"
             android:layout_width="wrap_content"
             android:layout_height="wrap_content"
+            android:layout_below="@+id/fragment_auth_label_port"
             android:layout_alignParentBottom="true"
             android:layout_marginStart="0dp"
             android:layout_marginBottom="0dp"
@@ -77,7 +78,7 @@
             android:layout_below="@+id/fragment_auth_label_pass"
             android:layout_toEndOf="@+id/fragment_auth_label_ip"
             android:ems="10"
-            android:hint="@string/login_hint_ip"
+            android:text="labtelema.ujaen.es"
             android:inputType="text|textPersonName" />
 
         <TextView
@@ -96,7 +97,7 @@
             android:layout_below="@+id/fragment_auth_label_ip"
             android:layout_alignStart="@+id/fragment_auth_edit_name"
             android:ems="10"
-            android:hint="@string/login_hint_port"
+            android:text="80"
             android:inputType="textPersonName|number" />
 
     </RelativeLayout>

@@ -19,6 +19,8 @@ public class ServiceActivity extends AppCompatActivity
         implements NavigationView.OnNavigationItemSelectedListener {
 
     public static final String PARAMETER_USER = "user";
+    public static final String PARAMETER_SID = "sid";
+    public static final String PARAMETER_EXPIRES = "expired";
 
     @Override
     protected void onCreate(Bundle savedInstanceState) {

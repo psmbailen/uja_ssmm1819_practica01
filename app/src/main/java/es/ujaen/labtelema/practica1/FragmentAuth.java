@@ -49,7 +49,7 @@ public class FragmentAuth extends Fragment {
      * @return A new instance of fragment FragmentAuth.
      */
     // TODO: Rename and change types and number of parameters
-    public static FragmentAuth newInstance(String param1, String param2) {
+    public static FragmentAuth  newInstance(String param1, String param2) {
         FragmentAuth fragment = new FragmentAuth();
         Bundle args = new Bundle();
         args.putString(ARG_PARAM1, param1);
