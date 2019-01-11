@@ -72,7 +72,7 @@
             android:textAppearance="@style/TextAppearance.AppCompat.Display1" />
 
         <EditText
-            android:id="@+id/fragment_auth_edit_ip"
+            android:id="@+id/introducefechacita"
             android:layout_width="wrap_content"
             android:layout_height="wrap_content"
             android:layout_below="@+id/fragment_auth_label_pass"

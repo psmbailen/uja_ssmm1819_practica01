@@ -65,7 +65,7 @@
             android:textAppearance="@style/TextAppearance.AppCompat.Large" />
 
         <EditText
-            android:id="@+id/fragment_auth_edit_ip"
+            android:id="@+id/introducefechacita"
             android:layout_width="wrap_content"
             android:layout_height="wrap_content"
             android:layout_alignTop="@+id/fragment_auth_label_ip"
@@ -78,7 +78,7 @@
             android:id="@+id/fragment_auth_label_port"
             android:layout_width="wrap_content"
             android:layout_height="wrap_content"
-            android:layout_below="@+id/fragment_auth_edit_ip"
+            android:layout_below="@+id/introducefechacita"
             android:layout_alignStart="@+id/fragment_auth_label_user"
             android:text="@string/lagin_port"
             android:textAppearance="@style/TextAppearance.AppCompat.Large" />

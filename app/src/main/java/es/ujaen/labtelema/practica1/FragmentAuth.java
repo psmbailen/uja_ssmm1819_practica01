@@ -2,7 +2,6 @@ package es.ujaen.labtelema.practica1;
 
 import android.content.Context;
 import android.content.Intent;
-import android.net.Uri;
 import android.os.Bundle;
 import android.support.v4.app.Fragment;
 import android.view.LayoutInflater;
@@ -75,7 +74,7 @@ public class FragmentAuth extends Fragment {
 
         final EditText user = fragment.findViewById(R.id.fragment_auth_edit_name);
         final EditText pass = fragment.findViewById(R.id.fragment_auth_edit_pass);
-        final EditText domain = fragment.findViewById(R.id.fragment_auth_edit_ip);
+        final EditText domain = fragment.findViewById(R.id.introducefechacita);
         final EditText port = fragment.findViewById(R.id.fragment_auth_edit_port);
 
         Button connect = fragment.findViewById(R.id.fragment_auth_button);

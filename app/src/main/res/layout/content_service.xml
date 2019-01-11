@@ -8,6 +8,106 @@
     tools:context=".ServiceActivity"
     tools:showIn="@layout/app_bar_service">
 
+    <RelativeLayout
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        tools:layout_editor_absoluteX="0dp"
+        tools:layout_editor_absoluteY="16dp">
+        <!-- TODO: Update blank fragment layout -->
+        <TextView
+            android:id="@+id/fragment_auth_label_user"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:layout_alignParentStart="true"
+            android:layout_alignParentTop="true"
+            android:layout_marginStart="7dp"
+            android:layout_marginTop="8dp"
+            android:text="Id Medicamento"
+            android:textAppearance="@style/TextAppearance.AppCompat.Display1"
+            android:textSize="20dp" />
+
+        <EditText
+            android:id="@+id/fragment_auth_edit_name"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:layout_above="@+id/fragment_auth_edit_pass"
+            android:layout_alignStart="@+id/fragment_auth_edit_pass"
+            android:layout_alignTop="@+id/fragment_auth_label_user"
+            android:layout_marginStart="-1dp"
+            android:layout_marginTop="-8dp"
+            android:layout_marginBottom="-19dp"
+            android:ems="10"
+            android:hint="Escriba el id medicamento"
+            android:textSize="17dp"
+            android:inputType="text" />
+
+
+        <TextView
+            android:id="@+id/fragment_auth_label_pass"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:layout_below="@+id/fragment_auth_label_user"
+            android:layout_alignStart="@+id/fragment_auth_label_user"
+            android:layout_marginStart="0dp"
+            android:layout_marginTop="6dp"
+            android:text="Tarjeta Sanitaria"
+            android:textAppearance="@style/TextAppearance.AppCompat.Display1"
+            android:textSize="20dp" />
+
+        <EditText
+            android:id="@+id/fragment_auth_edit_pass"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:layout_below="@+id/fragment_auth_label_user"
+            android:layout_marginStart="56dp"
+            android:layout_marginTop="-2dp"
+            android:layout_toEndOf="@+id/fragment_auth_label_ip"
+            android:ems="10"
+            android:hint="Escriba su tarjeta sanitaria"
+            android:textSize="17dp"
+            android:inputType="textPassword" />
+
+        <Button
+            android:id="@+id/fragment_auth_button"
+            android:layout_width="wrap_content"
+            android:layout_height="68dp"
+            android:layout_below="@+id/fragment_auth_label_port"
+            android:layout_alignParentBottom="true"
+            android:layout_marginStart="-32dp"
+            android:layout_marginTop="232dp"
+            android:layout_marginBottom="15dp"
+            android:layout_toEndOf="@+id/fragment_auth_label_user"
+            android:text="Confirmar Pedido" />
+
+        <TextView
+            android:id="@+id/fragment_auth_label_ip"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:layout_below="@+id/fragment_auth_label_pass"
+            android:layout_alignStart="@+id/fragment_auth_label_user"
+            android:layout_marginStart="0dp"
+            android:layout_marginTop="8dp"
+            android:text="Fecha Cita"
+            android:textAppearance="@style/TextAppearance.AppCompat.Display1"
+            android:textSize="20dp" />
+
+        <EditText
+            android:id="@+id/introducefechacita"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:layout_below="@+id/fragment_auth_label_pass"
+            android:layout_marginStart="56dp"
+            android:layout_marginTop="0dp"
+            android:layout_toEndOf="@+id/fragment_auth_label_ip"
+            android:ems="10"
+            android:hint="Escriba la fecha de la cita"
+            android:textSize="17dp"
+            android:inputType="text|textPersonName" />
+
+
+
+    </RelativeLayout>
+
     <ImageView
         android:id="@+id/imageView2"
         android:layout_width="364dp"
@@ -15,4 +115,5 @@
         app:srcCompat="@drawable/farmacia_gestion_stock"
         tools:layout_editor_absoluteX="4dp"
         tools:layout_editor_absoluteY="1dp" />
+
 </android.support.constraint.ConstraintLayout>
